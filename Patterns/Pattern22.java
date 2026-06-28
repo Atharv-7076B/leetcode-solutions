@@ -13,7 +13,7 @@ public class Pattern22 {
         }
     }
 }
-//Output
+// Output
 // 4444444
 // 4333334
 // 4322234
