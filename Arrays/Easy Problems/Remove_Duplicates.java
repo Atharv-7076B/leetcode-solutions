@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
