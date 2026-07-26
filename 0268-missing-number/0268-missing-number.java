@@ -4,7 +4,7 @@ class Solution {
         int missVal = 0;
         Arrays.sort(nums);
         for (int i = 0; i < len; i++) {
-            if (nums[i] != i && i < len) {
+            if (nums[i] != i) {
                 missVal = i;
                 return missVal;
             }
