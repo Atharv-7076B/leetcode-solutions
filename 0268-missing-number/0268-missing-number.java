@@ -9,6 +9,6 @@ class Solution {
                 return missVal;
             }
         }
-        return nums[len - 1] + 1;
+        return len;
     }
 }
