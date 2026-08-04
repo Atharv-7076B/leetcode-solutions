@@ -3,7 +3,6 @@ class Solution {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         int range = arr[arr.length - 1] + k;
-        List<Integer> ans = new ArrayList<>();
         int n = 0;
         for (int num : arr) {
             max = Math.max(max, num);
