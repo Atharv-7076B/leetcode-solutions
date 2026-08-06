@@ -16,6 +16,6 @@ class Solution {
             if (ch == 'L')
                 left++;
         }
-        return (left == right && up == down) ? true : false;
+        return left == right && up == down;
     }
 }
