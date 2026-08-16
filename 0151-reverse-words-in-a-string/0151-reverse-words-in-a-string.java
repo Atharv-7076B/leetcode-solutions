@@ -4,7 +4,7 @@ class Solution {
         int end = str.length - 1;
         StringBuilder sb = new StringBuilder();
         for (int i = end; i >= 0; i--) {
-            sb.append(str[i] + " ");
+            sb.append(str[i]).append(" ");
         }
         return sb.toString().stripTrailing();
     }
