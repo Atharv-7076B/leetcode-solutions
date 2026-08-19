@@ -7,5 +7,6 @@ public class Sum_of_each_digit {
             sum += digit;
             number /= 10;
         }
+        System.out.println(sum);
     }
 }
