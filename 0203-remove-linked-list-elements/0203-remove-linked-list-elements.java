@@ -13,12 +13,11 @@ class Solution {
         ListNode d = new ListNode(-1);
         d.next = head;
         ListNode curr = d;
-        while (curr.next != null) {
-            if (curr.next.val == val) {
+        while(curr.next != null){
+            if(curr.next.val == val){
                 curr.next = curr.next.next;
-            } else
-                curr = curr.next;
-        }
-        return d.next;
+            }else
+                curr = curr.next; 
+        }return d.next;
     }
 }
