@@ -7,9 +7,9 @@ class Solution {
             }
         }
         for (int i = 1; i <= nums.length + 1; i++) {
-            int multiple = i * k;
-            if (!s.contains(multiple)) {
-                return multiple;
+            int m = i * k;
+            if (!s.contains(m)) {
+                return m;
             }
         }
         return -1;
